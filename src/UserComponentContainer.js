@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
 });
 
-const UserComponent = (props) => {
+const UserComponentContainer = (props) => {
   const [user, setUser] = useState(null);
   console.log(user);
   useEffect(() => {
@@ -65,4 +65,4 @@ const UserComponent = (props) => {
     <p>Loading</p>
   );
 };
-export default UserComponent;
+export default UserComponentContainer;

@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import User from "./UserComponent";
+import UserComponentContainer from "./UserComponentContainer";
 
 function App() {
   return (
     <Router>
       <div>
-        <Route path="/user/:id" component={User} />
+        <Route path="/user/:id" component={UserComponentContainer} />
       </div>
     </Router>
   );
